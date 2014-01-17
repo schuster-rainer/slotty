@@ -2,7 +2,7 @@
 
 In order to start developement it is a good idea to first create a virtual environment.
 
-1. Your *nix like system normally comes pre installed with easy_install. You may also have pip
+1. Your nix like system normally comes pre installed with easy\_install. You may also have pip
 installed. If not do so: 
 
 Ubuntu:
@@ -16,28 +16,23 @@ as package resource, so that changes in your source are instantly
 reflected in the package you are using
 
 
-after the bootstrapper created your virtual environment and installed 
+After the bootstrapper created your virtual environment and installed 
 all dependencies you are ready to run/develop the app.
 
 # Running
 
 Activate the virtual environment and run the webserver. You can pass in
 every option gunicorn can handle (
-> source .venv/bin/activate
-> ./start-server.sh
+> source .venv/bin/activate && ./start-server.sh
 
 or alternativelt run the command on your own
-gunicorn -k flask_sockets.worker webrms.gui.app:app --debug
+> gunicorn -k flask\_sockets.worker webrms.gui.app:app --debug
 
 The Webpage says "Hello Slotty!"
 
 Wait some seconds and it will start to generate some fictional random
 race data.
 
-#Goals
-
- some fictional random
-race data.
 
 #Goals
 
