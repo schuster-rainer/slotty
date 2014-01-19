@@ -1,2 +1,2 @@
 #!/bin/bash
-gunicorn -k flask_sockets.worker webrms.gui.app:app $@
+gunicorn -k socketio.sgunicorn.GeventSocketIOWorker slotty.app:app $@
