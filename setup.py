@@ -3,12 +3,12 @@ import sys, os
 
 version = '0.1'
 
-setup(name='webrms-gui',
+setup(name='slotty',
       version=version,
       description="Web Racing Management System",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      classifiers=[],  # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='RMS flask Slotcar',
       author='Rainer Schuster',
       author_email='rainerschuster79@gmail.com',
@@ -20,7 +20,8 @@ setup(name='webrms-gui',
       install_requires=[
           # -*- Extra requirements: -*-
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points={
+          'slotty.publisher': [
+              'cu_simulator = slotty.datasimulator:poll_sensor',
+          ]},
       )

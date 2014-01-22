@@ -1,0 +1,2 @@
+DEBUG = True
+API_ADDRESS = "tcp://127.0.0.1:5000"

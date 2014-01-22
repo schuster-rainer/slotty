@@ -19,7 +19,9 @@
 		$("#driver_laps_"+ data.controller).html(data.laps);
 	};
         $(document).ready(function(){
-	        var ws = io.connect("/slotty");
+		var address = "/sensors";
+		console.log(address);
+	        var ws = io.connect(address);
 
 		ws.on('connect', function () {
 		    console.log('Socket connected');
