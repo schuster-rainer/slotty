@@ -2,4 +2,5 @@ gunicorn
 flask
 wsaccel
 setuptools
--e git+git@github.com:abourget/gevent-socketio.git#egg=gevent_socketio
+gevent_socketio
+pyzmq

@@ -7,10 +7,10 @@ In order to start developement it is a good idea to first create a virtual envir
 	Ubuntu:
 	sudo apt-get install python-pip
    or an equivalant way of installing it on your machine.
-2. Run bootstrap.sh it will create a virtual environment,
-   install the dependencies and sets up your local workspace
+2. Running bootstrap.sh will create a virtual environment,
+   install the dependencies and set up your local workspace
    as package resource, so that changes in your source are instantly
-   reflected in the package you are using
+   reflected. You don't have to install your packge over and over again
 
 After the bootstrapper created your virtual environment and installed 
 all dependencies you are ready to run/develop the app.
@@ -60,3 +60,28 @@ Wait some seconds and it will start to generate some fictional random race data.
 ## Investigate
 
 [libwebsocket](http://libwebsockets.org/trac/libwebsockets)
+[flask-classy](http://pythonhosted.org/Flask-Classy/)
+[flask-sqlalchemy](http://pythonhosted.org/Flask-SQLAlchemy/quickstart.html)
+[flask-themes](http://pythonhosted.org/Flask-Themes/)
+[flask-zen](http://pythonhosted.org/Flask-Zen/)
+[flask-babel](http://pythonhosted.org/Flask-Babel/)
+[flask-couchdb](http://pythonhosted.org/Flask-CouchDB/)
+[flask-oauth](http://pythonhosted.org/Flask-OAuth/)
+[flask-openid](http://pythonhosted.org/Flask-OpenID/)
+[flask-debugtoolbar](http://flask-debugtoolbar.readthedocs.org/en/latest/)
+[three.js](http://threejs.org/)
+[shifty](http://jeremyckahn.github.io/shifty/)
+[clara.io](http://clara.io/)
+[shapesmith](http://shapesmith.net)
+[lagoa](http://home.lagoa.com)
+[tridiv](http://tridiv.com)
+[sculpteo](http://www.sculpteo.com/)
+[ipython](http://ipython.org/)
+[ipython intro](http://opentechschool.github.io/python-data-intro/core/notebook.html)
+[labnotebook](https://github.com/cboettig/labnotebook)
+[couchdb notebook manager](https://gist.github.com/zylinqk/4107048)
+[rackspace and openspace notebook manager](https://github.com/rgbkrk/bookstore/blob/master/bookstore/swift.py)
+[remote notebook](http://ipython.org/ipython-doc/rel-1.1.0/interactive/public_server.html)
+[remote notebook 2](http://www.windowsazure.com/en-us/documentation/articles/virtual-machines-python-ipython-notebook/)
+[ipython sql](https://github.com/catherinedevlin/ipython-sql)
+[import notebooks](http://nbviewer.ipython.org/gist/minrk/6011986)

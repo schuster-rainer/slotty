@@ -22,6 +22,6 @@ setup(name='slotty',
       ],
       entry_points={
           'slotty.publisher': [
-              'cu_simulator = slotty.datasimulator:poll_sensor',
+              'carrera unit simulator = slotty.datasimulator:poll_sensor',
           ]},
       )
