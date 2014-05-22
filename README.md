@@ -26,10 +26,10 @@ The app has severall configuration files
 # Running
 
 Activate the virtual environment and run the webserver. You can pass in every option gunicorn can handle
-	source .venv/bin/activate && ./start-server.sh
+	source .slotty/bin/activate && ./start-server.sh
 
 or run the debug server
-	source .venv/bin/activate && ./start-server.sh
+	source .slotty/bin/activate && ./start-server.sh
 
 Wait some seconds and it will start to generate some fictional random race data.
 
